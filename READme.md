@@ -27,7 +27,7 @@ The app uses SQLite for storing user credentials and quiz questions. The databas
 2. Open a terminal and navigate to the project directory.
 3. Execute the following command:
 ```
-python app.py
+python manage.py runserver
 ```
 
 
