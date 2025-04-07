@@ -29,6 +29,10 @@ The app uses SQLite for storing user credentials and quiz questions. The databas
 ```
 python manage.py runserver
 ```
+4. Open Browser to 
+```
+http://127.0.0.1:8000/
+```
 
 
 ### Output
