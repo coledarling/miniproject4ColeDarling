@@ -4,7 +4,9 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = 'replace-this-with-a-secure-key'
+
 DEBUG = True
+
 ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
@@ -14,7 +16,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'quiz_app',  # Register your app here
+    'quiz_app',
 ]
 
 MIDDLEWARE = [
@@ -32,7 +34,7 @@ ROOT_URLCONF = 'miniproject4ColeDarling.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'templates')],  # Global templates folder
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -59,7 +61,9 @@ AUTH_PASSWORD_VALIDATORS = []
 LANGUAGE_CODE = 'en-us'
 TIME_ZONE = 'UTC'
 USE_I18N = True
+USE_L10N = True
 USE_TZ = True
 
 STATIC_URL = '/static/'
+
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'

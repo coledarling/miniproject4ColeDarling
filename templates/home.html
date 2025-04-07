@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<div class="text-center">
+    <h1>Welcome to the Quiz App</h1>
+    <p>Take quizzes, register or log in, and view your results!</p>
+    <div class="mt-4">
+        <a href="{% url 'quiz_app:register' %}" class="btn btn-primary">Register</a>
+        <a href="{% url 'quiz_app:login' %}" class="btn btn-secondary">Login</a>
+        <a href="{% url 'quiz_app:quiz' %}" class="btn btn-success">Take the Quiz</a>
+        <a href="{% url 'quiz_app:results' %}" class="btn btn-info">View Results</a>
+    </div>
+</div>
+{% endblock %}
