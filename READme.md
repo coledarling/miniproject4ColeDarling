@@ -15,7 +15,6 @@ This project implements a web-based quiz application using Django. Users can reg
 Ensure you have these installed:
 ```
 pip install -r requirements.txt
-
 ```
 **DataBase Setup**
 
